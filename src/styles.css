@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .button {
+    padding: 12px 24px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+    color: #fff;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gradient-button {
+    color: #fff;
+    padding: 12px 24px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .gradient-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .color-picker-container {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+  }
+  
+  .button-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .button-contrast {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .button-random {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 10px #007bff;
+  }
+  .high-contrast {
+    background-color: black;
+    color: white;
+  }
+  
