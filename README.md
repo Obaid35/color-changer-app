@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Color Changer App
 
 ## 🌟 Overview
@@ -31,3 +32,7 @@ This project helped me:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Obaid35/color-changer-app.git
+=======
+# color-changer-app
+A React-based app to change background colors with customizable options, gradients, and themes.
+>>>>>>> 394e094679fd7e6bbfe9964ff49268c4e1937245
